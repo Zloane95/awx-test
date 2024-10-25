@@ -1,0 +1,6 @@
+---
+
+- name: Update Servers
+  become: true
+  roles:
+    - maint/update
